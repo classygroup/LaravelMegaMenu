@@ -1,0 +1,45 @@
+{
+    "name": "Classy/MegaMenu",
+    "description": "A Laravel MegaMenu Package to make your life easier",
+    "keywords": ["laravel", "MegaMenu","Mega Menu", "menu","full menu","drop down menu","bootstrap","mitralize","drop down","nav","nav bar"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ihab hamad",
+            "email": "ihab.hamad7@gmail.com",
+            "role" :  "Back End Classy Team"
+        },
+        {
+            "name": "Khallil Khasseb",
+            "email": "khalil.khaseeb@gmail.com",
+            "role" :  "Front End Classy Team"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.4.0|~5.5.0|~5.6.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Classy\\MegaMenu\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Classy\\MegaMenu\\MegaMenuServiceProvider"
+            ],
+            "aliases": {
+                "ClassyMenu": "Classy\\MegaMenu\\Facades\\MegaMenu"
+            }
+        }
+    }
+}
