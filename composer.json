@@ -1,5 +1,5 @@
 {
-    "name": "Classy/MegaMenu",
+    "name": "classy/mega-menu",
     "description": "A Laravel MegaMenu Package to make your life easier",
     "keywords": ["laravel", "MegaMenu","Mega Menu", "menu","full menu","drop down menu","bootstrap","mitralize","drop down","nav","nav bar"],
     "license": "MIT",
